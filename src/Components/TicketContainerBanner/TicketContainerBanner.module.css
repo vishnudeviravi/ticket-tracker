@@ -1,0 +1,14 @@
+.Banner {
+    width:97%;
+    text-align:center;
+    margin: 0 auto;
+    margin-top:5px;
+    background-color: #ffffff;
+    padding: 5px 0px;
+    display:flex;   
+}
+
+.Text {
+    margin:0 60px 0 10px;
+    font-size:15px;
+}

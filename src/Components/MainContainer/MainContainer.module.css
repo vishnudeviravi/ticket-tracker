@@ -1,0 +1,11 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.MainContainer {
+    width:95%;
+    height:100%;
+    margin: 10px auto;
+    display:flex;
+    background-color: #ffffff;
+}

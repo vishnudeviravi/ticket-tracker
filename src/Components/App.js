@@ -1,8 +1,10 @@
 import React from 'react';
+import MainContainer from './MainContainer/MainConatiner';
+import './App.module.css';
 
 const app = () => {
 
-    return <h1> Initial Commit </h1>
+    return <MainContainer />
 }
 
 
