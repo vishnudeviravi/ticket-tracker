@@ -1,0 +1,35 @@
+/* .Modal {
+    z-index: 500;
+    position:fixed;
+    background-color:orange;
+    width:70%;
+    height: 300px;
+    top:15%;
+    left:30%;
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 600px;
+        left: calc(50% - 150px);
+    }
+} */
+
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: orange;
+    width: 70%;
+    border-radius:2px;
+    padding: 160px;
+    left: 15%;
+    top: 20%;
+    box-sizing: border-box;
+}
+
+@media (min-width: 600px) {
+    .Modal {
+        width: 500px;
+        left: calc(50% - 250px);
+    }
+}
